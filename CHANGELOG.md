@@ -2,6 +2,11 @@
 
 All notable changes to this demo are tracked here.
 
+## [0.1.1] — 2026-04-21
+
+### Fixed
+- Microsoft 365 product-logo icons were missing on the deployed site. The HTML references eight external PNGs (`copilot-logo.png`, `logo-outlook.png`, `logo-teams.png`, `logo-word.png`, `logo-excel.png`, `logo-powerpoint.png`, `logo-onedrive.png`, `logo-m365.png`) via inline SVG `<image>` tags, but the assets were not included in the initial commit or SWA deploy. Added all eight PNGs alongside `index.html` so app logos now render across the sign-in screen, home surface, waffle menu, Teams/Outlook topbars, and Copilot panels.
+
 ## [0.1.0] — 2026-04-21
 
 ### Added
